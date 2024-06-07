@@ -218,6 +218,12 @@ return {
 			},
 			formatters_by_ft = {
 				lua = { "stylua" },
+
+				typescript = { { "eslint_d" } },
+				typescriptreact = { { "eslint_d" } },
+				javascript = { { "eslint_d" } },
+				javascriptreact = { { "eslint_d" } },
+				vue = { { "eslint_d" } },
 				-- Conform can also run multiple formatters sequentially
 				-- python = { "isort", "black" },
 				--
